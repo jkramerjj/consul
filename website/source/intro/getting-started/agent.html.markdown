@@ -135,7 +135,7 @@ its health is simply marked as critical, but it is not removed from the catalog.
 Consul will automatically try to reconnect to _failed_ nodes, allowing it
 to recover from certain network conditions, while _left_ nodes are no longer contacted.
 
-Additionally, if an agent is operating as a server, a graceful leave is important
+Additionally, if an agent is operating as a server, a graceful leave is important because it is needed
 to avoid causing a potential availability outage affecting the
 [consensus protocol](/docs/internals/consensus.html). See the
 [guides section](/docs/guides/index.html) for details on how to safely add
